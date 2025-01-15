@@ -273,3 +273,32 @@
 		background-size: 24px 24px; /*The size of the normal image, half the size of the hi-res image*/
 	}
 }
+
+.gallery-images .fancybox {
+	position: relative;
+}
+
+.gallery-images .fancybox img{
+	width: 100%; 
+	object-fit: cover;
+}
+
+.gallery-images .fancybox i{
+	position: absolute;
+	left: 45%;
+	top: 45%;
+	font-size: 30px;
+	color: #966c1f;
+	display: none;
+}
+
+.gallery-images .fancybox:hover i{
+	display: block;
+	transition: 0.8s ease;
+}
+
+.gallery-images .fancybox:hover img{
+	opacity: 0.8;
+	background-color: black;
+	transition: 0.8s ease;
+}
