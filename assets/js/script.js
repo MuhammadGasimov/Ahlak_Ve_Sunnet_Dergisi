@@ -62,9 +62,9 @@
 
   smallNavFunctionality();
 
-  $("body").on("click", function () {
-    $(".navigation-holder").removeClass("slideInn");
-  });
+  // $("body").on("click", function () {
+  //   $(".navigation-holder").removeClass("slideInn");
+  // });
   $(".menu-close").on("click", function () {
     $(".navigation-holder").removeClass("slideInn");
   });
