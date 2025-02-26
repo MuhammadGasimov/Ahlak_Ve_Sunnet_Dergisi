@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="wpOceans">
     <link rel="shortcut icon" type="image/png" href="https://pbs.twimg.com/profile_images/1665458481355190279/3lJ-sU9W_400x400.jpg">
-    <title>Ahlak ve Sünnet dergisi | Blog Details</title>
+    <title>Ahlak ve Sünnet dergisi</title>
     <link href="assets/css/themify-icons.css" rel="stylesheet">
     <link href="assets/css/flaticon.css" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -21,8 +21,42 @@
     <link href="assets/css/odometer-theme-default.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .entry-media {
+            position: relative;
+        }
+        
+        .entry-media::after {
+            content: " Playlist";
+            position: absolute;
+            bottom: 10px;
+            text-align: center;
+            left: 5%;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            padding: 5px 30px;
+            border-radius: 5px;
+            font-size: 14px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+        }
+        
+        .entry-media::before {
+            content: "\f04b";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            position: absolute;
+            left: 30px;
+            color: white;
+            font-weight: bold;
+            z-index: 1000;
+            top: 135px;
+        }
+    </style>
 </head>
-
 <body>
 
     <div class="page-wrapper">
@@ -65,8 +99,8 @@
                                         <li><a href="index.html">Anasayfa</a></li>
                                         <li><a href="about.html">Hakkımızda</a></li>
                                         <li><a href="services.html">Servis</a></li> 
-                                        <li><a href="blog.html">Bloq</a></li> 
-                                        <li><a href="playlist.html">YouTube</a></li>
+                                        <li><a href="blog.html">Bloq</a></li>
+                                        <li><a class="active" href="playlist.html">YouTube</a></li>
                                         <li><a href="galery.html">Galeri</a></li> 
                                         <li><a href="contact.html">İletişim</a></li>
                                         <li>
@@ -91,11 +125,10 @@
                 <div class="row">
                     <div class="col-12">
                         <div class="wpo-breadcumb-wrap">
-                            <h2>Blog single</h2>
+                            <h2>YouTube Playlist</h2>
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><span>Blog Sİngle</span></li>
+                                <li><span>Youtube Playlist</span></li>
                             </ul>
                         </div>
                     </div>
@@ -103,68 +136,122 @@
             </div>
         </div>
 
-        <section class="wpo-blog-single-section wpo-blog-single-left-sidebar-section section-padding">
+        <section class="wpo-blog-pg-section section-padding">
             <div class="container">
                 <div class="row">
-                    <div class="col col-lg-10 offset-lg-1">
-                        <div class="wpo-blog-content">
-                            <div class="post format-standard-image">
-                                <div class="entry-media">
-                                    <img src="assets/images/blog/1.jpg" alt>
-                                </div>
-                                <div class="entry-meta">
-                                    <ul>
-                                        <li><i class="fi flaticon-user"></i> By <a href="#">Jenny Watson</a> </li>
-                                        <li><i class="fi flaticon-comment-white-oval-bubble"></i> Comments 35 </li>
-                                        <li><i class="fi flaticon-calendar"></i>30 Nov 2023</li>
-                                    </ul>
-                                </div>
-                                <h2>Five Groups Of People During Ramadan.</h2>
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have
-                                    suffered alteration in some form, by injected humour, or randomised words which
-                                    don't look even slightly believable. If you are going to use a passage of Lorem
-                                    Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of
-                                    text. All the Lorem Ipsum generators on the Internet tend to repeat predefined
-                                    chunks as necessary, making this the first true generator on the Internet. It uses a
-                                    dictionary of over 200 Latin words, combined with a handful.</p>
-
-                                <div class="gallery">
-                                    <div>
-                                        <img src="assets/images/blog/img-1.jpg" alt="">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="videos.html">
+                            <div class="wpo-blog-content">
+                                <div class="post format-standard-image">
+                                    <div class="entry-media">
+                                        <img src="https://i.ytimg.com/vi/GWn-oACW_mA/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBYUEHvXBnC67RPWTe-4Dske3OBPQ" class="img-fluid" style="border-radius: 20px;" alt>
                                     </div>
-                                    <div>
-                                        <img src="assets/images/blog/img-2.jpg" alt="">
+                                    <div class="entry-details mt-4 text-center">
+                                        <h6>
+                                            <a href="videos.html">Akaid Dersleri.</a>
+                                        </h6>
                                     </div>
                                 </div>
                             </div>
-                            <div class="tag-share clearfix">
-                                <div class="tag">
-                                    <span>Share: </span>
-                                    <ul>
-                                        <li><a href="#">Donation</a></li>
-                                        <li><a href="#">Charity</a></li>
-                                        <li><a href="#">Education</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="more-posts">
-                                <div class="previous-post">
-                                    <a href="blog-details.html">
-                                        <span class="post-control-link">Previous Post</span>
-                                        <span class="post-name">At vero eos et accusamus et iusto odio dignissimos
-                                            ducimus qui blanditiis praesentium.</span>
-                                    </a>
-                                </div>
-                                <div class="next-post">
-                                    <a href="blog-details.html">
-                                        <span class="post-control-link">Next Post</span>
-                                        <span class="post-name">Dignissimos ducimus qui blanditiis praesentiu deleniti
-                                            atque corrupti quos dolores</span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                        </a>
                     </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="videos.html">
+                            <div class="wpo-blog-content">
+                                <div class="post format-standard-image">
+                                    <div class="entry-media">
+                                        <img src="https://i.ytimg.com/vi/-9tf9aztHlo/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCJ5h1tf9LrHM4CsGmsunfK9Pz1Mw" class="img-fluid" style="border-radius: 20px;" alt>
+                                    </div>
+                                    <div class="entry-details mt-4 text-center">
+                                        <h6>
+                                            <a href="videos.html">Kürtçe.</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="videos.html">
+                            <div class="wpo-blog-content">
+                                <div class="post format-standard-image">
+                                    <div class="entry-media">
+                                        <img src="https://i.ytimg.com/vi/2m8IGZ-1luI/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBk5R0JHUpsG01Q7mmzFHu25j8JeQ" class="img-fluid" style="border-radius: 20px;" alt>
+                                    </div>
+                                    <div class="entry-details mt-4 text-center">
+                                        <h6>
+                                            <a href="videos.html">Hidayet üzre sabit kalmanın ipuçları.</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="videos.html">
+                            <div class="wpo-blog-content">
+                                <div class="post format-standard-image">
+                                    <div class="entry-media">
+                                        <img src="https://i.ytimg.com/vi/qxNakAiEKuc/hqdefault.jpg?sqp=-oaymwEXCOADEI4CSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBIkNn-GP9FFkD5A-33zEtckPjchQ" class="img-fluid" style="border-radius: 20px;" alt>
+                                    </div>
+                                    <div class="entry-details mt-4 text-center">
+                                        <h6>
+                                            <a href="videos.html">Cuma Hutbesi.</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="videos.html">
+                            <div class="wpo-blog-content">
+                                <div class="post format-standard-image">
+                                    <div class="entry-media">
+                                        <img src="https://i.ytimg.com/vi/yXvGOCducUA/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4AdQGgALgA4oCDAgAEAEYXyBfKF8wDw==&rs=AOn4CLB6SVIxj2rHdbsT1_druVDsgt0Z6g" class="img-fluid" style="border-radius: 20px;" alt>
+                                    </div>
+                                    <div class="entry-details mt-4 text-center">
+                                        <h6>
+                                            <a href="videos.html">Kısa kesitler.</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <a href="videos.html">
+                            <div class="wpo-blog-content">
+                                <div class="post format-standard-image">
+                                    <div class="entry-media">
+                                        <img src="https://i.ytimg.com/vi/7Sx3UjxqtI0/hqdefault.jpg?sqp=-oaymwExCOADEI4CSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYLyBJKH8wDw==&rs=AOn4CLCSPUWirXx_PyBLt6d3N5FnUiXvew" class="img-fluid" style="border-radius: 20px;" alt>
+                                    </div>
+                                    <div class="entry-details mt-4 text-center">
+                                        <h6>
+                                            <a href="videos.html">Kur'an.</a>
+                                        </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="pagination-wrapper">
+                    <ul class="pg-pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <i class="fi ti-angle-left"></i>
+                            </a>
+                        </li>
+                        <li class="active"><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <i class="fi ti-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
@@ -258,5 +345,6 @@
     <script src="assets/js/modernizr.custom.js"></script>
     <script src="assets/js/jquery-plugin-collection.js"></script>
     <script src="assets/js/script.js"></script>
+
 </body>
 </html>

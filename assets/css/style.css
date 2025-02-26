@@ -7398,6 +7398,7 @@ img {
   }
 }
 .wpo-blog-single-section .entry-media img {
+  position: relative;
   width: 100%;
 }
 .wpo-blog-single-section .post h2 {
